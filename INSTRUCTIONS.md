@@ -1,6 +1,6 @@
 # NewsOfTheWorld-USA — daily Shorts job (instructions for the Claude routine)
 
-You produce the material for today's 3 YouTube Shorts of the channel NewsOfTheWorld-USA and deliver it to this repository (the inbox). You are working inside a checkout of it. You do NOT publish anything: the channel's GitHub pipeline picks the files up, has them checked again by an independent fact-checker, then voices, renders and uploads them.
+You produce the material for today's YouTube Shorts (5 written, the best 4 published) of the channel NewsOfTheWorld-USA and deliver it to this repository (the inbox). You are working inside a checkout of it. You do NOT publish anything: the channel's GitHub pipeline picks the files up, has them checked again by an independent fact-checker, then voices, renders and uploads them.
 
 ## Channel
 - Topic: The most important news for the United States right now, domestic or foreign: politics, elections (including the 2026 midterms), Congress, the White House, courts, the border, the economy, crime, culture-war fights, and foreign affairs that matter to Americans.
@@ -26,20 +26,19 @@ You produce the material for today's 3 YouTube Shorts of the channel NewsOfTheWo
 - Jokes and opinions need no source, but a joke must not smuggle in a false fact.
 
 ## Method
-0. Today's date is the New York date: `TZ=America/New_York date +%F` (called DATE below).
+0. Today's date is the New York date: `TZ=America/New_York date +%F` (called DATE below). Never touch the folder `left-coast/` (that is a different channel).
 1. Look at this repository first:
    - `git fetch origin` and work from the newest state of `main`.
    - Read `notes.md` if it exists: editor notes from the channel owner. Follow them unless they conflict with the hard rules.
    - Read the `shorts.json` of the previous 3 days (`<date>/shorts.json`): do not repeat a story already covered unless there is a genuinely new development.
    - If `DATE/shorts.json` already exists on `main`, today's job is done: stop and report "already delivered".
-2. Find today's most important US news (last ~24 h) with web search: politics, Congress, the White House, courts, the border, the economy, culture war, foreign affairs that matter to Americans.
-   - Sources that usually open: Fox News, New York Post, Washington Examiner, AP stories (apnews.com or local mirrors such as Spectrum News), NPR, Politico, whitehouse.gov, congress.gov, state and agency sites.
-   - Often blocked for fetching: The Hill, CNN, NBC News, Washington Times, US News. Don't waste time on them; find the same fact on an outlet that opens.
-3. Pick 3 DIFFERENT news events that fit the hook rule — three separate stories, not three angles of one event (e.g. not two Shorts from the same rally or hearing).
+2. Find today's most important US news (last ~24 h) with web search: politics, Congress, the White House, courts, the economy, culture war, foreign affairs that matter to Americans.
+   - If a site blocks fetching (some do: The Hill, CNN, NBC News, Washington Times, US News), don't retry it; find the same fact on an outlet that opens (AP via local stations such as Spectrum News or KIRO 7, Fox News, NPR, Politico, Axios, CBS, official .gov sites).
+3. Pick 5 DIFFERENT news events that fit the hook rule — five separate stories, not angles of one event (e.g. not two Shorts from the same rally or hearing).
 4. Verify each key fact on the article page itself (web fetch). Keep the exact URL. A claim's URL must be a page you actually opened.
-5. Write the 3 Shorts.
-6. Fact-check yourself like a strict outside checker: re-read every cited page and confirm each claim; fix or delete anything that is not supported, including in titles and hooks. Check the format rules below.
-7. Write the research brief (brief.md), then shorts.json, and deliver both (see Delivery).
+5. Write 5 Shorts and put them in order of strength: the best first. The pipeline publishes the first 4 that pass its independent fact-check; the fifth is the spare.
+6. Fact-check yourself like a strict outside checker: re-open the pages behind every quote, number and name, and confirm each claim; fix or delete anything that is not supported, including in titles and hooks. Check the format rules below.
+7. Write the research brief (`DATE/brief.md`), then `DATE/shorts.json`, and deliver both (see Delivery).
 
 ## Delivery tags (audio tags for the voice)
 - [beat] before every punchline. Tone tags before a sentence: [sarcastic], [deadpan], [amused], [serious], [incredulous], [warm], [emphatic], [mischievously]. At most one reaction tag ([laughs], [chuckles], [scoffs], [sighs]) per Short. No laughs in stories about deaths, violence or disasters.
@@ -51,25 +50,26 @@ Exactly this shape:
    "narration":"spoken text with audio tags, 100–150 words, contains the word subscribe",
    "claims":[{"text":"the factual statement","source_url":"https://full/article/url"}],
    "slides":[{"type":"photo|stock|map|stat|quote","query":"","states":[],"value":"","label":"","text":"","speaker":""}]}]}
+- 5 entries in "shorts", best first.
 - Give each Short 6–8 slides: "photo" = Wikimedia Commons search for a REAL photo of a named person/place ("<Full Name> official portrait"); "stock" = generic scene, never a real person; "map" = USPS state codes; "stat" = value + label; "quote" = exact quote + speaker. Fill every field ("" or [] when unused).
 - Every Short needs at least one claim; every URL starts with https:// and is an article path, not a homepage.
 
-## Format of brief.md (the material for Sunday's weekly report)
-Markdown, 400–900 words: for each of today's 3 stories (and up to 2 more important stories you researched but did not use), a heading, the key facts in bullet points with the source URL after each fact, and the verbatim quotes with speaker and URL.
+## Format of brief.md
+Markdown, 400–900 words: for each of today's 5 stories, a heading, the key facts in bullet points with the source URL after each fact, and the verbatim quotes with speaker and URL.
 
 ## Delivery
 ```bash
 DATE=$(TZ=America/New_York date +%F)
 mkdir -p "$DATE"
 # write $DATE/brief.md and $DATE/shorts.json, then validate:
-python3 -c "import json; d=json.load(open('$DATE/shorts.json')); assert len(d['shorts'])>=1; print('valid,', len(d['shorts']), 'Shorts')"
+python3 -c "import json; d=json.load(open('$DATE/shorts.json')); assert len(d['shorts'])>=4; print('valid,', len(d['shorts']), 'Shorts')"
 git add "$DATE"
 git -c commit.gpgsign=false commit -q -m "Shorts $DATE"
 git push origin HEAD:main
 ```
 - If pushing to `main` is refused, push to the branch this session is allowed to use (a `claude/…` branch) instead — the pipeline also looks there. Do not open a pull request.
-- If the push is rejected because `main` moved: `git pull --rebase origin main` and push again.
-- Never edit or delete other days' files, README.md, notes.md or this file.
+- If the push is rejected because `main` moved (the other channel's routine also pushes here): `git pull --rebase origin main` and push again.
+- Never edit or delete other days' files, README.md, any notes.md or any INSTRUCTIONS.md.
 
 ## Final report (short)
-The 3 titles, the outlets used, what your self-check changed, and to which branch you pushed. Nothing else.
+The 5 titles in your order, the outlets used, what your self-check changed, and to which branch you pushed. Nothing else.
