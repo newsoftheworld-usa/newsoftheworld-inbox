@@ -1,0 +1,439 @@
+{
+ "title": "Shorts 2026-10-24",
+ "summary": "Five conservative-leaning news-and-commentary Shorts for 2026-10-24.",
+ "tags": [
+  "news",
+  "politics",
+  "commentary",
+  "midterms",
+  "FBI",
+  "AOC",
+  "Hochul"
+ ],
+ "thumbnail_headline": "Ex-FBI Officials Arrested",
+ "segments": [],
+ "shorts": [
+  {
+   "title": "Two Ex-FBI Officials Surrender: \"Lying To Congress\" #Shorts",
+   "hook": "Ex-FBI Officials Arrested Over Hunter Biden",
+   "narration": "[serious] Two former FBI officials surrendered on arrest warrants Friday, accused of lying to Congress. [warm] Folks, the Justice Department says Nikki Floris and Bradley Benavides falsely denied involvement in Hunter Biden investigations back in 2023. Benavides reportedly told lawmakers he learned of the laptop story from Wikipedia. [beat] [sarcastic] Wikipedia! The FBI's elite, getting breaking news from the same site your nephew uses for his book report. Director Kash Patel says weaponization will never be tolerated at this FBI. Floris's lawyers call the charges nonsense. Both are innocent until proven guilty, friends. Proverbs 19:5 says, a false witness shall not be unpunished, and he that speaketh lies shall not escape. [beat] [deadpan] Funny thing about emails. They never forget. Do you trust the FBI more or less today? Tell me below. And subscribe for the daily news.",
+   "claims": [
+    {
+     "text": "Former FBI officials Nikki Floris and Bradley Benavides surrendered Friday (Oct 23, 2026) on arrest warrants; the DOJ charges them with lying to Congress in 2023 about involvement in Hunter Biden investigations.",
+     "source_url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny"
+    },
+    {
+     "text": "The DOJ says email logs suggest Floris discussed Hunter Biden with Foreign Influence Task Force colleagues; Benavides told lawmakers he learned of the laptop story from Wikipedia, and the DOJ says emails show he was in contact with the investigation team.",
+     "source_url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny"
+    },
+    {
+     "text": "FBI Director Kash Patel said: \"weaponization will never be tolerated at this FBI.\" Floris's attorneys called the charges \"nonsense\" and said \"Nikki Floris is a patriot.\"",
+     "source_url": "https://www.foxnews.com/politics/ex-fbi-officials-arrested-hunter-biden-laptop-probe-testimony-scrutiny"
+    }
+   ],
+   "slides": [
+    {
+     "type": "photo",
+     "query": "Kash Patel official portrait",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "photo",
+     "query": "Jeanine Pirro official portrait",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "weaponization will never be tolerated at this FBI.",
+     "speaker": "Kash Patel, FBI Director"
+    },
+    {
+     "type": "stock",
+     "query": "law enforcement badge courthouse",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "Nikki Floris is a patriot.",
+     "speaker": "Floris's attorneys"
+    },
+    {
+     "type": "stock",
+     "query": "capitol building washington",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stat",
+     "query": "",
+     "states": [],
+     "value": "2023",
+     "label": "Year they allegedly lied to Congress",
+     "text": "",
+     "speaker": ""
+    }
+   ]
+  },
+  {
+   "title": "Appeals Court Blames A Judge's \"AI Agent\" For Botched Ruling #Shorts",
+   "hook": "Court Rips Judge: \"Perhaps Its AI Agent\"",
+   "narration": "[incredulous] Folks, a federal appeals court just suggested a judge's order may have been written by, quote, its AI agent. Judge Henry Wingate in Mississippi blocked a state law restricting DEI in schools. The Fifth Circuit called it a botch job, pointed to a nonexistent case it called an apparent AI hallucination, and ordered a new judge. Wingate said the errors were clerical and that a law clerk used AI to help draft it. [beat] [sarcastic] Clerical! Friends, when your homework cites a case that doesn't exist, the dog didn't eat it. Judge Jerry Smith wrote of sloppy edicts based on falsehoods and fabrications. Proverbs 14:15 says, the simple believeth every word: but the prudent man looketh well to his going. [beat] [deadpan] Even a robot should check its sources. Should judges use AI? Fight it out below. Subscribe, Henry roasts the news every day.",
+   "claims": [
+    {
+     "text": "The Fifth Circuit, in an opinion by Judge Jerry Smith, vacated U.S. District Judge Henry Wingate's preliminary injunction against a Mississippi law restricting DEI practices in public schools and universities, and ordered the case reassigned to a different judge.",
+     "source_url": "https://www.foxnews.com/politics/federal-judge-kicked-off-botch-job-anti-dei-case-after-stunning-appeals-court-rebuke"
+    },
+    {
+     "text": "The Fifth Circuit called Wingate's handling a \"botch job\" and said a citation to a nonexistent case was \"an apparent AI hallucination\"; Wingate had said the errors were clerical and that a law clerk used AI to help draft the order.",
+     "source_url": "https://www.foxnews.com/politics/federal-judge-kicked-off-botch-job-anti-dei-case-after-stunning-appeals-court-rebuke"
+    },
+    {
+     "text": "Judge Smith wrote the district court, \"or perhaps, being charitable, its AI agent,\" ignored and manipulated governing law, and wrote of \"sloppy edicts based on falsehoods and fabrications.\"",
+     "source_url": "https://www.foxnews.com/politics/federal-judge-kicked-off-botch-job-anti-dei-case-after-stunning-appeals-court-rebuke"
+    }
+   ],
+   "slides": [
+    {
+     "type": "stock",
+     "query": "gavel courtroom",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "or perhaps, being charitable, its AI agent",
+     "speaker": "Judge Jerry Smith, Fifth Circuit"
+    },
+    {
+     "type": "map",
+     "query": "",
+     "states": [
+      "MS"
+     ],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "sloppy edicts based on falsehoods and fabrications",
+     "speaker": "Judge Jerry Smith, Fifth Circuit"
+    },
+    {
+     "type": "stock",
+     "query": "computer circuit board artificial intelligence",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stat",
+     "query": "",
+     "states": [],
+     "value": "1",
+     "label": "Nonexistent case cited, per the court",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stock",
+     "query": "law library books",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    }
+   ]
+  },
+  {
+   "title": "AOC Explains Why She Backs Trans Athletes: \"I'm A Girls Girl\" #Shorts",
+   "hook": "AOC: \"I'm A Girls Girl\"",
+   "narration": "[amused] Folks, Alexandria Ocasio-Cortez has a new answer on women's sports. At a campus event in Maine, with Senate candidate Troy Jackson, she said, quote, I support the rights of trans women because I'm a girls girl. She also said Republicans' focus on trans girls in sports is, quote, about girls, all girls. That is her argument. But she's a politician, so we get to ask. [beat] [sarcastic] Friends, when the answer to a hard policy question fits on a tote bag, the policy is the problem. Matthew 5:37 says, let your communication be, Yea, yea; Nay, nay. [beat] [deadpan] Yea or nay, Congresswoman? Should Title IX protect only biological sex? That's the OutKick writer's view, so make your case below. Subscribe, Henry roasts the news every day.",
+   "claims": [
+    {
+     "text": "At a More Perfect University campus event in Maine alongside Senate candidate Troy Jackson, Rep. Alexandria Ocasio-Cortez said: \"I support the rights of trans women because I'm a girls girl.\"",
+     "source_url": "https://www.foxnews.com/outkick-sports/aoc-supports-men-womens-sports-girls-girl"
+    },
+    {
+     "text": "Ocasio-Cortez said Republican focus on trans girls in sports is \"about girls, all girls\" and said \"Title IX is the federal protection for all gender equality and all women to be protected.\"",
+     "source_url": "https://www.foxnews.com/outkick-sports/aoc-supports-men-womens-sports-girls-girl"
+    },
+    {
+     "text": "The OutKick article argues that Title IX should protect biological sex; this is the outlet's opinion.",
+     "source_url": "https://www.foxnews.com/outkick-sports/aoc-supports-men-womens-sports-girls-girl"
+    }
+   ],
+   "slides": [
+    {
+     "type": "photo",
+     "query": "Alexandria Ocasio-Cortez official portrait",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "I support the rights of trans women because I'm a girls girl.",
+     "speaker": "Rep. Alexandria Ocasio-Cortez"
+    },
+    {
+     "type": "map",
+     "query": "",
+     "states": [
+      "ME"
+     ],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stock",
+     "query": "college campus students",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "It's about girls, all girls.",
+     "speaker": "Rep. Alexandria Ocasio-Cortez"
+    },
+    {
+     "type": "stock",
+     "query": "gymnasium basketball court",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stat",
+     "query": "",
+     "states": [],
+     "value": "Title IX",
+     "label": "The law at the center of the argument",
+     "text": "",
+     "speaker": ""
+    }
+   ]
+  },
+  {
+   "title": "White House Fires Back At De Niro: \"Washed Up Has-Been\" #Shorts",
+   "hook": "White House Hits De Niro: \"Has-Been\"",
+   "narration": "[mischievously] Robert De Niro made an ad. The White House made a comeback. Folks, the group Indivisible shared a De Niro spot urging early voting, and he says, quote, no matter what they pull on Election Day, your vote will already be banked. That's his claim about what might happen. White House spokesman Davis Ingle answered, quote, Robert De Niro is a washed up has-been who hasn't been relevant in 30 years. [beat] [sarcastic] Ouch. And this from the man who made famous the line, you talkin' to me? Yes, Bob. Thirty years of it. Proverbs 26:12 says, seest thou a man wise in his own conceit? there is more hope of a fool than of him. [beat] [deadpan] Hollywood plays a president well. Governing, less so. Is De Niro a help or a hurt to Democrats? Argue below. Subscribe, Henry roasts the news every day.",
+   "claims": [
+    {
+     "text": "Indivisible shared a Robert De Niro ad as part of its \"Hands Off Our Vote\" campaign, released Thursday, urging early voting.",
+     "source_url": "https://www.foxnews.com/media/robert-de-niro-ad-urges-voters-vote-early-avoid-what-trump-might-pull-election-day"
+    },
+    {
+     "text": "De Niro says in the ad: \"no matter what they pull on Election Day, your vote will already be banked.\"",
+     "source_url": "https://www.foxnews.com/media/robert-de-niro-ad-urges-voters-vote-early-avoid-what-trump-might-pull-election-day"
+    },
+    {
+     "text": "White House spokesman Davis Ingle told Fox News Digital: \"Robert De Niro is a washed up has-been who hasn't been relevant in 30 years.\"",
+     "source_url": "https://www.foxnews.com/media/robert-de-niro-ad-urges-voters-vote-early-avoid-what-trump-might-pull-election-day"
+    }
+   ],
+   "slides": [
+    {
+     "type": "photo",
+     "query": "Robert De Niro",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "Robert De Niro is a washed up has-been who hasn't been relevant in 30 years.",
+     "speaker": "Davis Ingle, White House spokesman"
+    },
+    {
+     "type": "stock",
+     "query": "film camera movie set",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "no matter what they pull on Election Day, your vote will already be banked",
+     "speaker": "Robert De Niro, in the ad"
+    },
+    {
+     "type": "stock",
+     "query": "red carpet premiere",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "photo",
+     "query": "White House north facade",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stat",
+     "query": "",
+     "states": [],
+     "value": "30",
+     "label": "Years of irrelevance, per the White House",
+     "text": "",
+     "speaker": ""
+    }
+   ]
+  },
+  {
+   "title": "Hochul Defends Campaigning With Mamdani: \"Damn State Of New York\" #Shorts",
+   "hook": "Hochul On Mamdani: \"Across The Damn State\"",
+   "narration": "[amused] Governor Kathy Hochul is on the trail with New York City Mayor Zohran Mamdani, and folks are asking why. Her answer at a Brooklyn campaign event Friday, quote: he's more popular than Bruce Blakeman across the damn state of New York. That's her claim. Her opponent is Republican Bruce Blakeman, the Nassau County executive. [beat] [sarcastic] Governor, when you have to explain why you're standing next to your own mayor, the explanation is the headline. Proverbs 16:18 warns, pride goeth before destruction, and an haughty spirit before a fall. [beat] [deadpan] New Yorkers decide on November third. Would you campaign with Mamdani? Democrats, tell me below. Subscribe, Henry roasts the news every day.",
+   "claims": [
+    {
+     "text": "Gov. Kathy Hochul, campaigning with NYC Mayor Zohran Mamdani at a Brooklyn event on Friday, Oct 23, 2026, said: \"He's more popular than Bruce Blakeman across the damn state of New York.\"",
+     "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-campaigning-blitz-october-23"
+    },
+    {
+     "text": "Hochul is seeking a second term against Republican Bruce Blakeman, the Nassau County executive.",
+     "source_url": "https://www.foxnews.com/live-news/midterm-elections-2026-trump-campaigning-blitz-october-23"
+    }
+   ],
+   "slides": [
+    {
+     "type": "photo",
+     "query": "Kathy Hochul official portrait",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "quote",
+     "query": "",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "He's more popular than Bruce Blakeman across the damn state of New York.",
+     "speaker": "Gov. Kathy Hochul"
+    },
+    {
+     "type": "map",
+     "query": "",
+     "states": [
+      "NY"
+     ],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "photo",
+     "query": "Zohran Mamdani",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stock",
+     "query": "brooklyn bridge new york",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "photo",
+     "query": "Bruce Blakeman",
+     "states": [],
+     "value": "",
+     "label": "",
+     "text": "",
+     "speaker": ""
+    },
+    {
+     "type": "stat",
+     "query": "",
+     "states": [],
+     "value": "Nov 3",
+     "label": "Election Day",
+     "text": "",
+     "speaker": ""
+    }
+   ]
+  }
+ ]
+}
